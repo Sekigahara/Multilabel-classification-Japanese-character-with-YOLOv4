@@ -33,8 +33,13 @@ The first services are Android java based as a client, The client roles are to p
 ## Low-level overview
 ### Extract Transform Load(ETL Process) and Augmentation
 - The project and research utilizes ETL Character Database(ETLCDB) that can be found [here](http://etlcdb.db.aist.go.jp/). 
-- The preprocess is done with Python 3.8 and the details can be found in this #1[repo](https://github.com/Sekigahara/ETL-extractor-YOLOv4).
+- The preprocess is done with Python 3.8 and the details can be found in this #1 [repo](https://github.com/Sekigahara/ETL-extractor-YOLOv4).
 - The main concern in this parts are performing ETL Process the dataset into images and labels.
 - After ETL Process, the data will be further augmented
-- The result of ETL process and augmentation will be reformated to adjust the required training format of AlexeyAB YOLov4 Darknet.
-### 
+- The result of ETL process and augmentation will be reformated to adjust the required training format of AlexeyAB YOLOv4 Darknet.
+### API development (server)
+
+### Java Android (client)
+
+### Hiragana self-gather dataset for Object detection
+
