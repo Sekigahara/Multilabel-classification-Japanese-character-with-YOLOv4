@@ -38,11 +38,11 @@ The first services are Android java based as a client, The client roles are to p
 - After ETL Process, the data will be further augmented
 - The result of ETL process and augmentation will be reformated to adjust the required training format of AlexeyAB YOLOv4 Darknet.
 ### API development (server)
-- The API details and repo can be found [here](https://github.com/Sekigahara/Japanese-character-recognition-YOLOv4-Flask-API).
+- The API details and repo can be found #2 [here](https://github.com/Sekigahara/Japanese-character-recognition-YOLOv4-Flask-API).
 - The YOLOv4 model is deployed with this API using Darkeras.
 ### Java Android (client)
-- The Application details and repo can be found [here](https://github.com/Sekigahara/Japanese-character-recognizers-Java-YOLOv4-based-apps).
+- The Application details and repo can be found #3 [here](https://github.com/Sekigahara/Japanese-character-recognizers-Java-YOLOv4-based-apps).
 - EVery images and detection results are obtained from this platform.
 ### Hiragana self-gather dataset for Object detection
 - This is self-gathered dataset that also applied to the research and my final project to improve the accurateness of bounding boxes.
-- The repositories and the data characteristic can be seen [here](https://github.com/Sekigahara/Hiragana-from-scratch-datasets).
+- The repositories and the data characteristic can be seen #4 [here](https://github.com/Sekigahara/Hiragana-from-scratch-datasets).
