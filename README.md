@@ -1,8 +1,13 @@
 # Multilabel classification handwritten Japanese character with YOLOv4
+
 ## Abstract
 This is main repository for Japanese character recognition with YOLOv4.
 This repository was utilized for my Final Project and Scientific Paper that has been submitted in IES 2022.
 The main focus of this project and research are to identify the capability, characteristic and potential of YOLOv4 to tackle the problem of Handwritten character especially in terms of Japanese character which is increase the complexities. In addition, our truly concern is to identify how YOLOv4 be able to extract and generalize the main feature in comparation of ideal dataset(black and white) and non-ideal dataset(real data/online condition data).
+
+## Access
+- This project is associated with my paper that published in IES 2022.
+- The paper can be accessed via [IEEE](https://ieeexplore.ieee.org/document/9888638).
 
 ## High-level overview
 ![pipeline](https://user-images.githubusercontent.com/54882818/186874022-7dce3ced-4cfa-4c74-93cb-002e3f52c3ef.jpg) </br> <b>Figure 1. Model building workflow</b> </br>
@@ -33,16 +38,24 @@ The first services are Android java based as a client, The client roles are to p
 ## Low-level overview
 ### Extract Transform Load(ETL Process) and Augmentation
 - The project and research utilizes ETL Character Database(ETLCDB) that can be found [here](http://etlcdb.db.aist.go.jp/). 
-- The preprocess is done with Python 3.8 and the details can be found in this #1 [repo](https://github.com/Sekigahara/ETL-extractor-YOLOv4).
+- The preprocess is done with Python 3.8 and the details can be found in this #1 [repository](https://github.com/Sekigahara/ETL-extractor-YOLOv4).
 - The main concern in this parts are performing ETL Process the dataset into images and labels.
 - After ETL Process, the data will be further augmented
 - The result of ETL process and augmentation will be reformated to adjust the required training format of AlexeyAB YOLOv4 Darknet.
 ### API development (server)
-- The API details and repo can be found #2 [here](https://github.com/Sekigahara/Japanese-character-recognition-YOLOv4-Flask-API).
+- The API details and repo can be found in this #2 [repository](https://github.com/Sekigahara/Japanese-character-recognition-YOLOv4-Flask-API).
 - The YOLOv4 model is deployed with this API using Darkeras.
 ### Java Android (client)
-- The Application details and repo can be found #3 [here](https://github.com/Sekigahara/Japanese-character-recognizers-Java-YOLOv4-based-apps).
+- The Application details and repo can be found in this #3 [repository](https://github.com/Sekigahara/Japanese-character-recognizers-Java-YOLOv4-based-apps).
 - EVery images and detection results are obtained from this platform.
 ### Hiragana self-gather dataset for Object detection
 - This is self-gathered dataset that also applied to the research and my final project to improve the accurateness of bounding boxes.
-- The repositories and the data characteristic can be seen #4 [here](https://github.com/Sekigahara/Hiragana-from-scratch-datasets).
+- The repositories and the data characteristic can be seen in this #4 [repository](https://github.com/Sekigahara/Hiragana-from-scratch-datasets).
+
+## Sample Result
+
+![image](https://user-images.githubusercontent.com/54882818/193004392-c66dd96f-4db9-4e10-abc3-632335e5826b.png)
+![image](https://user-images.githubusercontent.com/54882818/193004427-73ce2754-a80a-4be9-919f-ecc5ca2e5fe7.png)
+
+
+
